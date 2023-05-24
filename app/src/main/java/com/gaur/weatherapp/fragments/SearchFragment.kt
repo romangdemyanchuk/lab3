@@ -27,7 +27,6 @@ class SearchFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -54,8 +53,6 @@ class SearchFragment : Fragment() {
         binding.btnSearch.setOnClickListener {
             getWeather(binding.edZipCode.text.toString().trim())
         }
-
-
     }
 
     fun setObserver(){
@@ -92,5 +89,4 @@ class SearchFragment : Fragment() {
     override fun onResume() {
         super.onResume()
     }
-
 }

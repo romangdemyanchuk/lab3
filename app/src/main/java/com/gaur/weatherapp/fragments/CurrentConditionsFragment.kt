@@ -6,10 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.gaur.weatherapp.R
 import com.gaur.weatherapp.databinding.FragmentCurrentConditionsBinding
 import com.gaur.weatherapp.viewmodels.CurrentConditionViewModel
 import dagger.hilt.android.AndroidEntryPoint

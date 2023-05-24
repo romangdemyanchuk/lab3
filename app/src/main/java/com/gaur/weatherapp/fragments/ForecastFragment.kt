@@ -14,8 +14,6 @@ import com.gaur.weatherapp.utils.Resource
 import com.gaur.weatherapp.viewmodels.ForecastViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
-// https://api.openweathermap.org/data/2.5/weather?lat=57&lon=-2.15&appid=51048e1180bda3dcbd240c9d9051920e
-
 @AndroidEntryPoint
 class ForecastFragment : Fragment() {
 
@@ -48,8 +46,6 @@ class ForecastFragment : Fragment() {
         args.weatherResponse?.let {
             forecastViewModel.getSixteenDays(it.coord.lat , it.coord.lon )
         }
-
-
     }
 
     private fun setObserver() {
@@ -73,11 +69,8 @@ class ForecastFragment : Fragment() {
                             .create().show()
 
                     }
-
                 }
             }
         }
     }
-
-
 }
