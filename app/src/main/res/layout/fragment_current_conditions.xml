@@ -133,16 +133,6 @@
                 tools:text="Pressure 1-23 hPa" />
 
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnForecast"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:backgroundTint="@color/grey"
-                android:text="Forecast"
-                android:textAllCaps="false" />
-
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 

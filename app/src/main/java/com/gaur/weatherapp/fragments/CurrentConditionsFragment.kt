@@ -40,16 +40,6 @@ class CurrentConditionsFragment : Fragment() {
      }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
-
-
-        binding.btnForecast.setOnClickListener {
-            findNavController().navigate(CurrentConditionsFragmentDirections.actionCurrentConditionsFragmentToForecastFragment(
-                args.weatherResponse
-            ))
-        }
-
-
         args.weatherResponse?.let {
 
             binding.tvName.text= it.name
